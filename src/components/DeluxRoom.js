@@ -16,9 +16,9 @@ function DeluxeRoom () {
             </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroup.Item><h3>침대타입</h3>더블</ListGroup.Item>
+                <ListGroup.Item style={{backgroundColor:'rgb(113, 152, 236)' ,color:'white'}}><h3>침대타입</h3>더블</ListGroup.Item>
                 <ListGroup.Item><h3>전망</h3>오션뷰</ListGroup.Item>
-                <ListGroup.Item><h3>투숙인원</h3>4명</ListGroup.Item>
+                <ListGroup.Item style={{backgroundColor:'rgb(113, 152, 236)' ,color:'white'}}><h3>투숙인원</h3>4명</ListGroup.Item>
                 <ListGroup.Item><h3>객실면적</h3>48㎡</ListGroup.Item>
             </ListGroup>
             <Card.Body>

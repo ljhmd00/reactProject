@@ -7,6 +7,7 @@
 .Menu{
     background-color: white;
     
+    
 }
 
 video{
@@ -22,6 +23,8 @@ video{
     height: 85vh;
 }
 
+
+
 .content {
     position: absolute;
     width: 100%;
@@ -35,6 +38,8 @@ video{
     font-size: 130px;
     
 }
+
+
 
 .hotelTitle:hover{
     -webkit-text-stroke:1px #fff;
@@ -50,11 +55,26 @@ video{
     flex-direction: column;
 
 }
-.rooms h1{
-    font-size: 60px;
+
+
+.facilities{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-.rooms h1:hover{
-    -webkit-text-stroke:1px rgb(44, 44, 44);
-    color: transparent;
+.facilitiesNav p , .roomsNav p, .dinigBarNav p, .aboutHotelNav p{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(33, 100, 245);
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
 }
+
