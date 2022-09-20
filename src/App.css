@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Menu{
+    background-color: white;
+    
+}
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.78;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 130px;
+    
+}
+
+.hotelTitle:hover{
+    -webkit-text-stroke:1px #fff;
+    color: transparent;
+}
+
+.rooms p{
+    margin: 15px;
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.rooms h1{
+    font-size: 60px;
+}
+
+.rooms h1:hover{
+    -webkit-text-stroke:1px rgb(44, 44, 44);
+    color: transparent;
+}
