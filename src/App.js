@@ -12,13 +12,13 @@ import SingleRoom from './components/SingleRoom';
 import StandardRoom from './components/StandardRoom'
 import DeluxeRoom from './components/DeluxRoom'
 import SuiteRoom from './components/SuiteRoom';
-
+import {Routes, Route, Link, useNavigate} from 'react-router-dom'
 
 
 
 
 function App() {
-
+  let navigate = useNavigate()
   let [rooms,setRooms] = useState([
     {
       id:'room001',
@@ -57,9 +57,9 @@ function App() {
       
       <Navbar  className='Menu'>
         <Container >
-            <img src={img} width='200px' height={'100px'} ></img>
+            <img src={img} width='200px' height={'100px'} style={{opacity: '0.85'}} onClick={()=>{navigate('/')}}></img>
             <Nav >
-            <Nav.Link href="#ROOMS">ROOMS</Nav.Link>
+            <Nav.Link href="#ROOMS" onClick={()=>{navigate()}}>ROOMS</Nav.Link>
             <Nav.Link href="#FACILITIES">FACILITIES</Nav.Link>
             <Nav.Link href="#DINING&BAR">DINING&BAR</Nav.Link>
             <Nav.Link href="ABOUT">ABOUT</Nav.Link>
