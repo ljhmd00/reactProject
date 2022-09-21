@@ -4,11 +4,6 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.Menu{
-    background-color: white;
-    
-    
-}
 
 video{
     width: 100%;
@@ -28,8 +23,8 @@ video{
 .content {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    height: 80%;
+    top:13%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +33,6 @@ video{
     font-size: 130px;
     
 }
-
 
 
 .hotelTitle:hover{
@@ -78,3 +72,54 @@ video{
     
 }
 
+li{
+    
+    display: inline;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    
+    
+}
+
+
+
+li:hover{
+    color: transparent,black;
+    font-size: 22px;
+}
+
+
+.underNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 6%;
+    
+    
+}
+
+span:hover{
+    -webkit-text-stroke:2.7px rgb(0, 0, 0);
+    color: transparent;
+}
+
+.aboutText{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}

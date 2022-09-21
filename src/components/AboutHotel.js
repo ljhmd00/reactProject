@@ -4,7 +4,8 @@ function AboutHotel() {
 
     return(
         <div className='aboutHotelYogiya'>
-            <video src={videoBg} autoPlay loop muted  style={{height:'30%'}} />
+            <video src={videoBg} autoPlay loop muted  
+            style={{height:'30%',borderBottomLeftRadius:'20%',borderBottomRightRadius:'20%'}} />
             <div className='aboutText'>
                 <p>ABOUT</p>
                 <h1>Hotel Yogiya</h1>
