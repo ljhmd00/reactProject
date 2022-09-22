@@ -18,8 +18,8 @@ function Facilities () {
         <video src={spa} autoPlay loop muted  style={{height:'400px',borderRadius:'20%'}} />
         <div style={{textAlign:'center',margin:'30px',borderBottom:'1px solid black'}}>
             <p>먹지 마세요 피부에 양보하세요.</p>
-            <p><span style={{fontSize:'18px'}}>이용료: </span>10,000원 / Delux룸 이상 이용시 무료</p>
-            <p><span style={{fontSize:'18px'}}>위치: 호텔 내 지하 1층</span></p>
+            <p><span1 style={{fontSize:'18px'}}>이용료: </span1>10,000원 / Delux룸 이상 이용시 무료</p>
+            <p><span1 style={{fontSize:'18px'}}>위치: 호텔 내 지하 1층</span1></p>
             </div>
     </Tab>
 
@@ -27,8 +27,8 @@ function Facilities () {
         <video src={pool} autoPlay loop muted  style={{height:'400px',borderRadius:'20%'}} />
         <div style={{textAlign:'center',margin:'30px',borderBottom:'1px solid black'}}>
             <p>노 키즈존 수영장</p>
-            <p><span style={{fontSize:'18px'}}>이용료: </span>8,000원 / Delux룸 이상 이용시 무료</p>
-            <p><span style={{fontSize:'18px'}}>위치: 호텔 내 1층 옆</span></p>
+            <p><span1 style={{fontSize:'18px'}}>이용료: </span1>8,000원 / Delux룸 이상 이용시 무료</p>
+            <p><span1 style={{fontSize:'18px'}}>위치: 호텔 내 1층 옆</span1></p>
         </div>
     </Tab>
     </Tabs>

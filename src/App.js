@@ -13,6 +13,9 @@ import img from './images/logo.png'
 
 
 
+
+
+
 function App() {
   let [navBar,setNavBar] = useState(false)
 
@@ -73,7 +76,7 @@ function App() {
       <div className='main'>
       <video src={videoBg} autoPlay loop muted  />
       <div className='content'>
-        <p className='hotelTitle'>Hotel Yogiya</p>
+        <p className='hotelTitle'>HOTEL YOGIYA</p>
         <Button variant="outline-light" style={{fontSize:'24px'}} onClick={()=>scrollToSection(rooms)} >SEARCH</Button>{' '}
       </div>
       </div>
@@ -83,7 +86,7 @@ function App() {
         <div className='roomsNav'>
           <p>Rooms</p>
         </div>
-        <Rooms/>
+        <Rooms />
       </div>
 
       <div ref={facilities}>

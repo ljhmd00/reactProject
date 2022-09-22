@@ -15,7 +15,7 @@ function Rooms (){
       className="mb-3"
       fill style={{fontSize:'28px'}}>
       <Tab eventKey="SingleRoom" title="SingleRoom">
-        <SingleRoom/>
+        <SingleRoom />
       </Tab>
       <Tab eventKey="StandardRoom" title="StandardRoom">
         <StandardRoom/>
