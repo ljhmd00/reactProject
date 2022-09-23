@@ -7,13 +7,13 @@ import bar from '../images/bar.jpg'
 function DiningBar(){
     return(
         <div className="bar" style={{marginTop:''}}>
-            <video src={videoBg} autoPlay loop muted  style={{height:'30%',height:'350px'}}/>
+            <video src={videoBg} autoPlay loop muted  style={{height:'30%'}}/>
 
             <div style={{textAlign:'center',margin:'30px'}}>
                 <p>기찻길 옆 아름다운 자연경관 속에서 직접 선보이는 다양한 요리를 즐기실 수 있습니다.</p>
                 <div style={{marginTop:'40px',display:'flex'}}>
                 <Card style={{margin:'20px',width:'600px'}}>
-                    <Card.Img src={breakfast} style={{height:'200px'}}/>
+                    <Card.Img src={breakfast} style={{height:'50%'}}/>
                     <Card.Body>
                         <Card.Title>조식 제공</Card.Title>
                         <Card.Text>
@@ -24,7 +24,7 @@ function DiningBar(){
                 </Card>
 
                 <Card style={{margin:'20px',width:'600px'}}>
-                    <Card.Img src={dinner} style={{height:'200px'}}/>
+                    <Card.Img src={dinner} style={{height:'50%'}}/>
                     <Card.Body>
                         <Card.Title>뷔페</Card.Title>
                         <Card.Text>
@@ -35,7 +35,7 @@ function DiningBar(){
                 </Card>
 
                 <Card style={{margin:'20px',width:'600px'}}>
-                    <Card.Img src={bar} style={{height:'200px'}}/>
+                    <Card.Img src={bar} style={{height:'50%'}}/>
                     <Card.Body>
                         <Card.Title>프리미엄 바</Card.Title>
                         <Card.Text>

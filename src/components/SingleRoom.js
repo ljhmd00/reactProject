@@ -17,16 +17,16 @@ function SingleRoom () {
         return (
         <Alert style={{backgroundColor:'white',height:'600px' ,textAlign:'center'}} onClose={() => setShow(false)} dismissible>
             <Alert.Heading style={{marginTop:'50px'}}>RESERVATION SINGLEROOM</Alert.Heading>
-            <div style={{display:'flex',marginTop:'70px',marginLeft:'100px'}}>
+            <div style={{display:'flex',marginTop:'70px',marginLeft:'9%'}}>
                 <div style={{fontSize:'22px'}}>
                     CHECK IN
                 <CalendarComponent/> 
                 </div>
-                <div style={{marginLeft:'50px',fontSize:'22px'}}>
+                <div style={{marginLeft:'6%',fontSize:'22px'}}>
                     CHECK OUT
                 <CalendarComponent/>
                 </div>
-                <div style={{marginLeft:'150px',marginTop:'20px'}}>
+                <div style={{marginLeft:'14%',marginTop:'20px'}}>
                 
                 <Form>
                 <Form.Label>Name</Form.Label>
@@ -62,7 +62,7 @@ function SingleRoom () {
     return(
         <div style={{textAlign:'center' }}>
             <Card style={{ width: '100%' }}>
-            <Card.Img src={room1}  style={{width:'600px',margin:'0 auto'}}/>
+            <Card.Img src={room1}  style={{width:'60%',margin:'0 auto'}}/>
             <Card.Body>
             <Card.Title><h2>싱글룸</h2><h4> price: 50,000 원</h4></Card.Title>
             <Card.Body>

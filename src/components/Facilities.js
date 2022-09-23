@@ -15,7 +15,7 @@ function Facilities () {
         fill style={{fontSize:'28px'}}>
     <Tab eventKey="Spa" title="Spa">
         
-        <video src={spa} autoPlay loop muted  style={{height:'400px',borderRadius:'20%'}} />
+        <video src={spa} autoPlay loop muted  style={{height:'400px',borderRadius:'20%',cursor:''}} className='facilitiesVideo' />
         <div style={{textAlign:'center',margin:'30px',borderBottom:'1px solid black'}}>
             <p>먹지 마세요 피부에 양보하세요.</p>
             <p><span1 style={{fontSize:'18px'}}>이용료: </span1>10,000원 / Delux룸 이상 이용시 무료</p>
@@ -24,7 +24,7 @@ function Facilities () {
     </Tab>
 
     <Tab eventKey="swimmingPool" title="Swimming Pool">
-        <video src={pool} autoPlay loop muted  style={{height:'400px',borderRadius:'20%'}} />
+        <video src={pool} autoPlay loop muted  style={{height:'400px',borderRadius:'20%'}}  className='facilitiesVideo'/>
         <div style={{textAlign:'center',margin:'30px',borderBottom:'1px solid black'}}>
             <p>노 키즈존 수영장</p>
             <p><span1 style={{fontSize:'18px'}}>이용료: </span1>8,000원 / Delux룸 이상 이용시 무료</p>

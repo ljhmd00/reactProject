@@ -20,16 +20,16 @@ function StandardRoom () {
         return (
         <Alert style={{backgroundColor:'white',height:'600px' ,textAlign:'center'}} onClose={() => setShow(false)} dismissible>
             <Alert.Heading style={{marginTop:'50px'}}>RESERVATION  STANDARDROOM</Alert.Heading>
-            <div style={{display:'flex',marginTop:'70px',marginLeft:'100px'}}>
+            <div style={{display:'flex',marginTop:'70px',marginLeft:'9%'}}>
                 <div style={{fontSize:'22px'}}>
                     CHECK IN
                 <CalendarComponent/> 
                 </div>
-                <div style={{marginLeft:'50px',fontSize:'22px'}}>
+                <div style={{marginLeft:'6%',fontSize:'22px'}}>
                     CHECK OUT
                 <CalendarComponent/>
                 </div>
-                <div style={{marginLeft:'150px',marginTop:'20px'}}>
+                <div style={{marginLeft:'14%',marginTop:'20px'}}>
                 
                 <Form>
                 <Form.Label>Name</Form.Label>

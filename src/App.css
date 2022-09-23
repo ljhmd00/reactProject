@@ -6,6 +6,89 @@
     font-family:'Noto Sans KR ''Arimo';
 }
 
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 12px;
+    justify-content: space-between;
+
+}
+
+
+
+.navbarMenu{
+    display: flex;
+    list-style: none;
+    padding-left: 0; 
+}
+
+.navbarLogo{
+    margin-left: 1%;
+    display: flex;
+}
+
+.navbarMenu li {
+    padding: 8px 30px;
+    cursor: pointer;
+    font-size: 26px;
+    display: flex;
+    font-weight: 650;
+    
+}
+
+.navbarMenu li:hover{
+    background-color: rgb(33, 100, 245);
+    color: white;
+}
+
+.navbarLink{
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbarLink svg:hover{
+    background-color: rgb(33, 100, 245);
+    color: white;
+    border-radius: 50%;
+
+}
+
+
+@media screen and (max-width:1100px){
+
+
+
+    .navbarLogo{
+        height: 100px;
+        width: auto;
+    }
+
+
+    .navbarMenu li{
+        font-size: 16px;
+        padding: 4px 17px;
+        font-weight: 700;
+    }
+
+
+    .content{
+        margin-top: 6%;
+
+
+    }
+    .hotelTitle{
+        font-size: 60px;
+        
+    }
+    .navbarLink{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+
+
 
 video{
     width: 100%;
@@ -13,6 +96,8 @@ video{
     object-fit: cover;
     opacity: 0.78;
 }
+
+
 
 
 .main{
@@ -74,31 +159,14 @@ video{
     
 }
 
-li{
-    
-    display: inline;
-    padding: 10px 20px;
-    font-weight: 700;
-    font-size: large;
-    cursor: pointer;
-}
-
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    
-    
 }
 
-
-
-li:hover{
-    color: transparent,black;
-    font-size: 22px;
-}
 
 
 .underNav{
@@ -124,4 +192,9 @@ span:hover{
     align-items: center;
     margin-bottom: 60px;
 
+}
+
+.facilitiesVideo:hover{
+    zoom: 1.2;  
+    
 }
