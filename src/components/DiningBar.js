@@ -18,7 +18,8 @@ function DiningBar(){
             <video src={videoBg} autoPlay loop muted  style={{height:'30%'}}/>
 
             <div style={{textAlign:'center',margin:'30px', fontSize:'22px'}}>
-                <p>기찻길 옆 아름다운 자연경관 속에서 직접 선보이는 다양한 요리를 즐기실 수 있습니다.</p>
+                <p><h4>기찻길 옆 아름다운 자연경관 속에서 직접 선보이는 다양한 요리를 즐기실 수 있습니다.</h4>
+                <hr style={{color:'rgb(33, 100, 245)'}}/></p>
                 <div style={{marginTop:'40px',display:'flex'}}>
                 <Card style={{margin:'20px',width:'600px'}}>
                     <Carousel >

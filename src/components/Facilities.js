@@ -10,7 +10,10 @@ function Facilities () {
 
         <div >
             <div className='facilities' id='facilities'>
-            <div className='facilitiesContent' style={{margin:'30px'}}><h4>더 유용한 라이프스타일을 맞춘 최상의 품격으로 호텔 내 부대시설을 이용하실 수 있습니다.</h4></div>
+            <div className='facilitiesContent' style={{margin:'30px'}}>
+                <h4>더 유용한 라이프스타일을 맞춘 최상의 품격으로 호텔 내 부대시설을 이용하실 수 있습니다.</h4>
+                <hr style={{color:'rgb(33, 100, 245)'}}/>
+            </div>
         
     <Tabs
         defaultActiveKey="profile"

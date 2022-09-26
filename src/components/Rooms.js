@@ -10,7 +10,7 @@ function Rooms (){
         <div className='rooms' id='rooms'>
 
       <div style={{textAlign:'center',margin:'40px'}}>
-        <h4>호텔 요기야는 10개 타입의 다양한 객실로 조용하고 안락한 쉼을 제공합니다.</h4>
+        <h4>호텔 요기야는 10개 타입의 다양한 객실로 조용하고 안락한 쉼을 제공합니다.</h4><hr style={{color:'rgb(33, 100, 245)'}}/>
       </div>  
       <Tabs
       defaultActiveKey="profile"
