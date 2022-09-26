@@ -1,12 +1,16 @@
-import {Tab,Tabs} from 'react-bootstrap'
+import {Tab,Tabs,Carousel, Card} from 'react-bootstrap'
 import pool from '../videos/pool.mp4'
+import pool2 from '../images/pool.jpg'
+import pool3 from '../images/pool2.jpg'
 import spa from '../videos/spa.mp4'
+import spa2 from '../images/spa2.jpg'
+import spa3 from '../images/spa3.jpg'
 function Facilities () {
     return (
 
         <div >
             <div className='facilities' id='facilities'>
-            <div style={{margin:'30px',fontSize:'22px'}}>더 유용한 라이프스타일을 맞춘 최상의 품격으로 호텔 내 부대시설을 이용하실 수 있습니다.</div>
+            <div className='facilitiesContent' style={{margin:'30px'}}><h4>더 유용한 라이프스타일을 맞춘 최상의 품격으로 호텔 내 부대시설을 이용하실 수 있습니다.</h4></div>
         
     <Tabs
         defaultActiveKey="profile"
@@ -14,22 +18,75 @@ function Facilities () {
         className="mb-3"
         fill style={{fontSize:'28px'}}>
     <Tab eventKey="Spa" title="Spa">
-        
-        <video src={spa} autoPlay loop muted  style={{height:'400px',borderRadius:'20%',cursor:''}} className='facilitiesVideo' />
-        <div style={{textAlign:'center',margin:'30px',borderBottom:'1px solid black'}}>
-            <p>먹지 마세요 피부에 양보하세요.</p>
-            <p><span1 style={{fontSize:'18px'}}>이용료: </span1>10,000원 / Delux룸 이상 이용시 무료</p>
-            <p><span1 style={{fontSize:'18px'}}>위치: 호텔 내 지하 1층</span1></p>
-            </div>
+
+    <div style={{textAlign:'center'}}>
+    <Card >
+        <Card.Body>
+        <Carousel>
+                <Carousel.Item className='facilitiesImg'>
+                <video src={spa} autoPlay loop muted  style={{width:'100%',height:'30%'}} className='facilitiesVideo' />
+                    <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6',fontSize:'28px'}}>먹지 마세요 피부에 양보하세요.</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}><span1 style={{fontSize:'22px'}}>이용료: </span1>10,000원 / Delux룸 이상 이용시 무료<br/>
+                        <span1 style={{fontSize:'18px'}}>위치: 호텔 내 지하 1층</span1></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className='facilitiesImg'>
+                <img src={spa2}  style={{width:'100%',opacity:'0.8'}}></img>
+                <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6',fontSize:'28px'}}>먹지 마세요 피부에 양보하세요.</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}><span1 style={{fontSize:'22px'}}>이용료: </span1>10,000원 / Delux룸 이상 이용시 무료<br/>
+                        <span1 style={{fontSize:'18px'}}>위치: 호텔 내 지하 1층</span1></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className='facilitiesImg'>
+                <img src={spa3}  style={{width:'100%',opacity:'0.8'}}></img>
+                <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6',fontSize:'28px'}}>먹지 마세요 피부에 양보하세요.</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}><span1 style={{fontSize:'22px'}}>이용료: </span1>10,000원 / Delux룸 이상 이용시 무료<br/>
+                        <span1 style={{fontSize:'18px'}}>위치: 호텔 내 지하 1층</span1></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </Card.Body>
+    </Card>
+    </div>  
     </Tab>
 
     <Tab eventKey="swimmingPool" title="Swimming Pool">
-        <video src={pool} autoPlay loop muted  style={{height:'400px',borderRadius:'20%'}}  className='facilitiesVideo'/>
-        <div style={{textAlign:'center',margin:'30px',borderBottom:'1px solid black'}}>
-            <p>노 키즈존 수영장</p>
-            <p><span1 style={{fontSize:'18px'}}>이용료: </span1>8,000원 / Delux룸 이상 이용시 무료</p>
-            <p><span1 style={{fontSize:'18px'}}>위치: 호텔 내 1층 옆</span1></p>
-        </div>
+    <div style={{textAlign:'center'}}>
+    <Card >
+        <Card.Body>
+        <Carousel>
+                <Carousel.Item className='facilitiesImg'>
+                <video src={pool} autoPlay loop muted  style={{width:'100%',height:'30%'}} className='facilitiesVideo' />
+                <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6',fontSize:'28px'}}>노 키즈존 수영장</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}><span1 style={{fontSize:'22px'}}>이용료: </span1>8,000원 / Delux룸 이상 이용시 무료<br/>
+                        <span1 style={{fontSize:'18px'}}>위치: 호텔 내 1층 옆</span1></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className='facilitiesImg'>
+                <img src={pool2}  style={{width:'100%',opacity:'0.8'}}></img>
+                <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6',fontSize:'28px'}}>노 키즈존 수영장</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}><span1 style={{fontSize:'22px'}}>이용료: </span1>8,000원 / Delux룸 이상 이용시 무료<br/>
+                        <span1 style={{fontSize:'18px'}}>위치: 호텔 내 1층 옆</span1></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className='facilitiesImg'>
+                <img src={pool3}  style={{width:'100%',opacity:'0.8'}}></img>
+                <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6',fontSize:'28px'}}>노 키즈존 수영장</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}><span1 style={{fontSize:'22px'}}>이용료: </span1>8,000원 / Delux룸 이상 이용시 무료<br/>
+                        <span1 style={{fontSize:'18px'}}>위치: 호텔 내 1층 옆</span1></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </Card.Body>
+    </Card>
+    </div>  
+
     </Tab>
     </Tabs>
     </div>

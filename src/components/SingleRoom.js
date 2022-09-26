@@ -1,10 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import room1 from '../images/room1.jpg'
+import room1_2 from '../images/room1-2.jpg'
+import room1_3 from '../images/room1-3.jpg'
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import React, { useState } from 'react';
 import {CalendarComponent}from '@syncfusion/ej2-react-calendars'
+
+import Carousel from 'react-bootstrap/Carousel';
 
 import Form from 'react-bootstrap/Form';
 
@@ -44,8 +48,10 @@ function SingleRoom () {
                 <Form.Select aria-label="Default select example">
                 <option>예약 인원</option>
                 <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                </Form.Select><br/>
+                <Form.Select aria-label="Default select example">
+                <option>객실 타입</option>
+                <option value="1">A</option>
                 </Form.Select>
                 <Button variant="primary" type="submit" style={{marginTop:'30px'}}>
                     예약하기
@@ -62,9 +68,35 @@ function SingleRoom () {
     return(
         <div style={{textAlign:'center' }}>
             <Card style={{ width: '100%' }}>
-            <Card.Img src={room1}  style={{width:'60%',margin:'0 auto'}}/>
+            <Carousel  style={{width:'60%',margin:'0 auto'}}>
+                <Carousel.Item >
+                    <img className="d-block w-100" src={room1} alt="First slide"/>
+                    <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SINGLEROOM</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type A</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item >
+                    <img className="d-block w-100" src={room1_2} alt="First slide"/>
+                    <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SINGLEROOM</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type A</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item >
+                    <img className="d-block w-100" src={room1_3} alt="First slide"/>
+                    <Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SINGLEROOM</h3>
+                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type A</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+
+    
             <Card.Body>
-            <Card.Title><h2>싱글룸</h2><h4> price: 50,000 원</h4></Card.Title>
+            <Card.Title><h2>싱글룸</h2><hr/><h4> price: 50,000 원</h4></Card.Title>
             <Card.Body>
             <Button variant="primary" onClick={() => setShow(true)} style={{alignItems:'center'}}>예약하기</Button>{' '}
             </Card.Body>

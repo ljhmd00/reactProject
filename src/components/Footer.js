@@ -1,9 +1,11 @@
-
+import footerBg from '../images/water.jpg'
 
 function Footer () {
     return(
-<div className='footer' style={{backgroundColor:'lightgray', height:'35%',marginBottom:'0px'}}>
-    
+<div   className='footer' style={{backgroundColor:'lightgray', height:'35%',marginBottom:'0px'}}>
+    <div className='footerBg'>
+
+    </div>
 
     <div style={{textAlign:'center'}}>
     <br/>All material herein © 2006 – 2022Human Company Pte. Ltd., All Rights Reserved.

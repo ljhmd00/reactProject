@@ -8,7 +8,10 @@ import SuiteRoom from '../components/SuiteRoom';
 function Rooms (){
     return(
         <div className='rooms' id='rooms'>
-        
+
+      <div style={{textAlign:'center',margin:'40px'}}>
+        <h4>호텔 요기야는 10개 타입의 다양한 객실로 조용하고 안락한 쉼을 제공합니다.</h4>
+      </div>  
       <Tabs
       defaultActiveKey="profile"
       id="fill-tab-example"
@@ -27,7 +30,9 @@ function Rooms (){
         <SuiteRoom/>
       </Tab>
     </Tabs>
+      
     </div>
+    
 
 
         

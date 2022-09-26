@@ -24,7 +24,6 @@
 }
 
 .navbarLogo{
-    margin-left: 1%;
     display: flex;
 }
 
@@ -38,25 +37,99 @@
 }
 
 .navbarMenu li:hover{
-    background-color: rgb(33, 100, 245);
-    color: white;
+    border-bottom: 3px solid rgb(33, 100, 245);
+    border-radius: 50%;
+    
 }
 
 .navbarLink{
+    width: 100px;
+    height: 100px;
     display: flex;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .navbarLink svg:hover{
-    background-color: rgb(33, 100, 245);
-    color: white;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
 
 }
+
+
 
 
 @media screen and (max-width:1100px){
 
+    .navbarLogo{
+        height: 130px;
+        width: auto;
+    }
+
+
+    .navbarMenu li{
+        font-size: 24px;
+        padding: 4px 17px;
+        font-weight: 700;
+    }
+
+    .content{
+        margin-top: 6%;
+
+
+    }
+    .hotelTitle{
+        font-size: 100px;
+        
+    }
+    .navbarLink{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:820px){
+    .underNav{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .navbarLogo{
+        height: 90px;
+        width: auto;
+    }
+
+
+    .navbarMenu li{
+        font-size: 16px;
+        padding: 4px 17px;
+        font-weight: 700;
+    }
+
+
+    .content{
+        margin-top: 6%;
+
+
+    }
+    .hotelTitle{
+        font-size: 80px;
+        
+    }
+}
+
+@media screen and (max-width:670px){
+    .navBar{
+        flex-direction: column;
+        
+    }
+
+    .underNav{
+        font-size: 14px;
+        font-weight: 600;
+    }
 
 
     .navbarLogo{
@@ -81,13 +154,13 @@
         font-size: 60px;
         
     }
-    .navbarLink{
-        width: 10px;
-        height: 10px;
+
+    .bar p{
+        font-size: 16px;
     }
+    
+
 }
-
-
 
 
 video{
@@ -96,8 +169,6 @@ video{
     object-fit: cover;
     opacity: 0.78;
 }
-
-
 
 
 .main{
@@ -174,14 +245,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 6%;
-    
-    
+    font-weight: 600;    
 }
 
 span:hover{
-    -webkit-text-stroke:2.7px rgb(0, 0, 0);
-    color: transparent;
+    font-weight: 700;
 }
+
+
+
+
+
+
 
 .aboutText{
     width: 100%;
@@ -194,7 +269,18 @@ span:hover{
 
 }
 
-.facilitiesVideo:hover{
-    zoom: 1.2;  
+
+
+.facilitiesContent{
+    font-size: 22px;
+}
+
+
+
+.footer{
+    background-image: url(./images/beach-832346_1920.jpg);
+    background-position: 30% 49%;
+    font-weight: 640;
     
 }
+
