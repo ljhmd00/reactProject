@@ -81,24 +81,21 @@ function SuiteRoom () {
                 <Carousel.Item >
                     <img className="d-block w-100" src={room4} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SUITEROOM</h3>
-                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type A</p>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SUITEROOM : type A</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item >
                     <img className="d-block w-100" src={room4_2} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SUITEROOM</h3>
-                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type B</p>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SUITEROOM : type B</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item >
                     <img className="d-block w-100" src={room4_3} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SUITEROOM</h3>
-                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type C</p>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>SUITEROOM : type C</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

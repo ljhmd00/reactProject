@@ -37,8 +37,8 @@
 }
 
 .navbarMenu li:hover{
-    border-bottom: 3px solid rgb(33, 100, 245);
-    border-radius: 50%;
+    border-bottom: 2.6px solid rgb(33, 100, 245);
+    /* border-bottom-left-radius: 50%; */
     
 }
 

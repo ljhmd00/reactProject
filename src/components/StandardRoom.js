@@ -79,24 +79,19 @@ function StandardRoom () {
                 <Carousel.Item >
                     <img className="d-block w-100" src={room2} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>STANDARDROOM</h3>
-                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type A</p>
-                    </Carousel.Caption>
+                        <h3 style={{backgroundColor:'black',opacity:'0.7'}}>STANDARDROOM : type A</h3>                    </Carousel.Caption>
                 </Carousel.Item>
-
                 <Carousel.Item >
                     <img className="d-block w-100" src={room2_2} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>STANDARDROOM</h3>
-                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type B</p>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>STANDARDROOM : type B</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item >
                     <img className="d-block w-100" src={room2_3} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>STANDARDROOM</h3>
-                        <p style={{backgroundColor:' rgb(33, 100, 245)',opacity:'0.7',fontSize:'18px'}}>type C</p>
+                        <h3 style={{backgroundColor:'black',opacity:'0.6'}}>STANDARDROOM : type C</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
