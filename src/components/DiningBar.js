@@ -33,7 +33,6 @@ function DiningBar(){
                         <img src={coffee} style={{width:'100%'}}/>
                         </Carousel.Item>
                     </Carousel>
-            
                     <Card.Body>
                         <Card.Title>조식 제공</Card.Title>
                         <Card.Text>
@@ -42,7 +41,6 @@ function DiningBar(){
                         </Card.Text>
                     </Card.Body>
                 </Card>
-
                 <Card style={{margin:'20px',width:'600px'}}>
                 <Carousel >
                         <Carousel.Item className='facilitiesImg'>

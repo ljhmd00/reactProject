@@ -58,7 +58,6 @@ function SingleRoom () {
                 </Button>
                 </Form>
                 </div>
-
                 </div>      
         </Alert>
         );
