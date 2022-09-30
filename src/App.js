@@ -47,7 +47,7 @@ function App() {
           <img  src={img} width='220px' style={{opacity: '0.85',cursor:'pointer'}} onClick={()=>scrollToSection(main)}/>
         </div>
 
-        <div className='navbarMenu'>`
+        <div className='navbarMenu'>
           <li onClick={()=>scrollToSection(rooms)}>ROOMS</li>
           <li onClick={()=>scrollToSection(facilities)}>FECILITIES</li>
           <li onClick={()=>scrollToSection(diningBar)}>DIDING&BAR</li>
